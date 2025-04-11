@@ -1,0 +1,1 @@
+This repository contains snippets of code in different languages that is either demonstrating a cool concept, or behaves not quite as one would expect
