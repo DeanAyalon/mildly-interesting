@@ -10,3 +10,8 @@ if (person != null &&
 
 // In C#, we can use pattern matching to simplify this to:
 if (person is { Age: > 18, Name.Length: > 3 }) {}
+
+// UNCOMMITTED CODE IN ANOTHER MACHINE
+
+// Pattern-matching is also included in Rust, Scala, Python, and Swift
+// They're also proposed in TypeScript
