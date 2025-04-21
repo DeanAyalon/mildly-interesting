@@ -10,7 +10,8 @@ const me = {
     talk: function () { console.log(this) }  // this -> `you` object (the context in which the function is called)
 }
 
-me.talk()   // `this` Inherited from the global window                  prints {}
+me.talk()   // `this` Inherited from the global window                  prints {} or undefined depending on the JS engine
+                                                                            // node: {}, deno: undefined
 you.talk()  // Calling you.talk() sets `this` to the `you` object       prints { name: 'John Doe', talk: [Function: talk] }
 
 // The lambda function was defined in the global content (the JS window) and then assigned to `me` - `this` points to the window object
